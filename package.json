@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+"server": "json-server --watch src/posts.json --port 3000"},
   "dependencies": {
     "axios": "^1.16.1",
     "json-server": "^1.0.0-beta.15",
