@@ -1,7 +1,13 @@
+<script setup>
+defineProps({
+  post: Object
+})
+</script>
+
 <template>
   <tr>
-    <td>1</td>
-    <td>Hello World!</td>
+    <td>{{ post.id }}</td>
+    <td>{{ post.title }}</td>
     <td>
       <button>O</button>
       <button>/</button>
