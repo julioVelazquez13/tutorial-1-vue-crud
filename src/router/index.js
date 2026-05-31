@@ -4,6 +4,7 @@ import Home from '../pages/Home.vue'
 import Posts from '../components/Posts.vue'
 import PostsAdd from '../components/PostsAdd.vue'
 import PostsView from '../components/PostsView.vue'
+import PostsEdit from '../components/PostsEdit.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
   path: '/posts/:id',
   name: 'postsView',
   component: PostsView
+},
+{
+  path: '/posts/edit/:id',
+  name: 'postsEdit',
+  component: PostsEdit
 }
 ]
 
