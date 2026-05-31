@@ -1,4 +1,6 @@
 <script setup>
+import { RouterLink } from 'vue-router'
+
 defineProps({
   post: Object
 })
@@ -9,7 +11,10 @@ defineProps({
     <td>{{ post.id }}</td>
     <td>{{ post.title }}</td>
     <td>
-      <button>O</button>
+      <RouterLink :to="`/posts/${post.id}`">
+        O
+      </RouterLink>
+
       <button>/</button>
       <button>X</button>
     </td>
