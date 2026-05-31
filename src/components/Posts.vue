@@ -22,9 +22,15 @@ onMounted(async () => {
   <div>
     <h1>All Post</h1>
 
-    <RouterLink to="/">
-      Go to Home
-    </RouterLink>
+   <RouterLink to="/">
+  Go to Home
+</RouterLink>
+
+<br />
+
+<RouterLink to="/posts/add">
+  Add Post
+</RouterLink>
 
     <br />
     <br />

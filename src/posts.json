@@ -14,6 +14,12 @@
       "id": "3k4l5m6n7o",
       "title": "Traveling the World on a Budget",
       "description": "Discover tips and tricks for seeing the world without breaking the bank."
+    },
+    {
+      "title": "Prueba CRUD",
+      "description": "Mi primer registro desde Vue",
+      "id": "e5_MS5i44SM"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
